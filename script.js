@@ -15,8 +15,7 @@ btn.addEventListener('click', () => {
 
 range.addEventListener('input', () => {
     rangeSpan.textContent = range.value;
-    circle.style.height = range.value + '%';
-    circle.style.width = range.value + '%';
+    circle.style.height = circle.style.width = range.value + '%';
 });
 
 console.log(range);
